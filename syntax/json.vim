@@ -108,7 +108,7 @@ syn region  jsonFold matchgroup=jsonBraces start="\[" end=/]\(\_s\+\ze"\)\@!/ tr
 " Define the default highlighting.
 if version >= 508 || !exists("did_json_syn_inits")
   hi def link jsonPadding		Operator
-  hi def link jsonString		String
+  hi def link jsonString		Delimiter
   hi def link jsonTest			Label
   hi def link jsonEscape		Special
   hi def link jsonNumber		Delimiter
